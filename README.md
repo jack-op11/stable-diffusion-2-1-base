@@ -10,8 +10,6 @@ This model card focuses on the model associated with the Stable Diffusion v2-1-b
 
 This `stable-diffusion-2-1-base` model fine-tunes [stable-diffusion-2-base](https://huggingface.co/stabilityai/stable-diffusion-2-base) (`512-base-ema.ckpt`) with 220k extra steps taken, with `punsafe=0.98` on the same dataset. 
 
-![image](https://github.com/Stability-AI/stablediffusion/blob/main/assets/stable-samples/txt2img/merged-0003.png?raw=true)
-
 - Use it with the [`stablediffusion`](https://github.com/Stability-AI/stablediffusion) repository: download the `v2-1_512-ema-pruned.ckpt` [here](https://huggingface.co/stabilityai/stable-diffusion-2-1-base/resolve/main/v2-1_512-ema-pruned.ckpt).
 - Use it with 🧨 [`diffusers`](#examples)
 
