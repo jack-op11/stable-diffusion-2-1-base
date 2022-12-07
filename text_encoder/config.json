@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "stabilityai/stable-diffusion-2",
+  "_name_or_path": "./stability/stable-diffusion-2-1-base/text_encoder",
   "architectures": [
     "CLIPTextModel"
   ],
@@ -19,7 +19,7 @@
   "num_hidden_layers": 23,
   "pad_token_id": 1,
   "projection_dim": 512,
-  "torch_dtype": "float32",
-  "transformers_version": "4.25.0.dev0",
+  "torch_dtype": "float16",
+  "transformers_version": "4.26.0.dev0",
   "vocab_size": 49408
 }
