@@ -37,7 +37,7 @@ This `stable-diffusion-2-1-base` model fine-tunes [stable-diffusion-2-base](http
 Using the [🤗's Diffusers library](https://github.com/huggingface/diffusers) to run Stable Diffusion 2 in a simple and efficient manner.
 
 ```bash
-pip install --upgrade git+https://github.com/huggingface/diffusers.git transformers accelerate scipy
+pip install diffusers transformers accelerate scipy safetensors
 ```
 Running the pipeline (if you don't swap the scheduler it will run with the default PNDM/PLMS scheduler, in this example we are swapping it to EulerDiscreteScheduler):
 
